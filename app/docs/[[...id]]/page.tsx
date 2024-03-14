@@ -1,6 +1,6 @@
 const DocsPage = ({params}) => {
-    console.log(params);
-    return <div>Docs page {params.id}</div>
+    console.log(params);    
+    return <div className="ml-1 text-black">Docs page {params.id}</div>
 }
 
 export default DocsPage;

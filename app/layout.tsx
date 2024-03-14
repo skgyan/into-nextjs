@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
+        <nav className="ml-1">
           <ul>
             {links.map((link) => (
               <li key={link.label}>
